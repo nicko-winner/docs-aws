@@ -12,7 +12,7 @@ Account Owner
 When you sign up for Fanatical Support for AWS, the first user you create is the
 **Account Owner**.  After signing up, you can reassign Account Owner status to
 another user on the account.  You can make this change from the **Account
-Settings** page.  There can have only one Account Owner at a time.
+Settings** page.  There can be only one Account Owner at a time.
 
 The **Account Owner** has full administrative privileges, including:
 
@@ -20,11 +20,11 @@ The **Account Owner** has full administrative privileges, including:
 - ``Admin`` rights to all Fanatical Support for AWS features on all AWS
   accounts.
 - ``Admin`` rights to the Rackspace Billing and Payments portal.
-- Ability to add additional AWS accounts for Rackspace to manage.
+- Ability to add additional AWS, Microst Azure, GCP, VMware accounts for Rackspace to manage.
 - Ability to create and delete users on the Rackspace account and manage
   their permissions for each AWS account.
 - Ability to make other users Account Administrators.
-- Ability to reassign Account Owner status
+- Ability to reassign Account Owner status.
 - Ability to configure Rackspace account-wide setting, including enabling
   multi-factor authentication, configuring session duration, and so on.
 - Ability to cancel the Rackspace account.
@@ -69,8 +69,7 @@ assigning them permissions.
 Users with the **Account Administrator** right have the following privileges:
 
 - AWS ``AdministratorAccess`` IAM policy rights on all AWS accounts.
-- ``Admin`` rights to all Fanatical Support for AWS features on all
-  AWS accounts.
+- ``Admin`` rights to all AWS, Mirosft Azure, GCP, VMware on all accounts.
 - ``Admin`` rights to the Rackspace Billing and Payments portal.
 - Ability to add additional AWS accounts for Rackspace to manage.
 - Ability to create and delete users on the Rackspace account and manage
@@ -81,8 +80,6 @@ Users with the **Account Administrator** right have the following privileges:
 
 * Ability to view or modify the Account Owner or other users with the
   Account Administrator permission.
-* Ability to configure Rackspace account-wide settings, including enabling
-  multi-factor authentication, configuring session duration, and so on.
 * Ability to cancel the Rackspace account.
 
 The **Account Administrator** permission does not determine user status within
